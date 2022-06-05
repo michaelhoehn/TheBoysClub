@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Boy's Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
+
+</head>
+
+<body>
+    <header>
+        <a href="https://twitter.com/GraphicaPng">
+            <img class="graphica" src="./Images/Portrait3.png">
+        </a>
+        <a href="https://twitter.com/c_mplx">
+            <img class="cmplx" src="./Images/cmplx_logo.png">
+        </a>
+    </header>
+    <section>
+        <img class="theBoys" src="./Images/12345.PNG" style="width: 100%">
+    </section>
+    <section class="buttons">
+        <a href="https://www.fxhash.xyz/explore" class="button">Mint</a>
+        <a href="https://twitter.com/search?q=%23theboysclub&src=typed_query" class="button">Twitter</a>
+        <button id="modalBtn" class="infoButton">Info</button>
+    </section>
+
+    <!-- The Modal -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="modalImg" src="Images/Logo2.png">
+            <div class="modalText">
+                <h1>oh boy's club</h1>
+                <p>This is a rug you can use to cover your old pfp.</p>
+                <p>All the money from sales will be given to the artists to buy more unnecessary silly things.</p>
+                <p>Mint some so we can continue to make more silly and weird imagery for you. Maybe soon in 3D...</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var modal = document.getElementById("infoModal");
+        var btn = document.getElementById("modalBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body></html>
