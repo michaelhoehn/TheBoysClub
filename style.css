@@ -7,18 +7,40 @@ body {
 }
 
 .buttons {
-    display: flex;
+    display: inline-block;
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: -300px;
-    transform: scale(50%)
+    margin-top: -10%;
 }
 
 .button {
     padding: 5px 300px;
     margin: 0px 50px;
     cursor: pointer;
+}
+
+.imageButtonMint {
+    position: absolute;
+    left: 0;
+    width: 15%;
+    margin-left: 20%;
+    padding: 0px;
+}
+
+.imageButtonTwitter {
+    position: relative;
+    margin-left: 42.5%;
+    width: 15%;
+    padding: 0px;
+}
+
+.imageButtonInfo {
+    position: absolute;
+    right: 0%;
+    width: 15%;
+    margin-right: 20%;
+    padding: 0px;
 }
 
 .imageButtonMint:hover {
