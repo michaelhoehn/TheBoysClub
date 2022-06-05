@@ -25,12 +25,16 @@
         <img class="theBoys" src="./Images/12345.PNG" style="width: 100%">
     </section>
     <section class="buttons">
-        <a href="https://www.fxhash.xyz/explore" class="button">Mint</a>
-        <a href="https://twitter.com/search?q=%23theboysclub&src=typed_query" class="button">Twitter</a>
-        <button id="modalBtn" class="button" "infoButton">Info</button>
+        <a href="https://www.fxhash.xyz/explore">
+            <img class="imageButtonMint button" src="./Images/mint_preHover.png">
+        </a>
+        <a href="https://twitter.com/search?q=%23theboysclub&src=typed_query">
+            <img class="imageButtonTwitter button" src="./Images/twitter_preHover.png">
+        </a>
+        <button type="submit"></button>
+        <img id="modalBtn" class="imageButtonInfo button" src="./Images/info_preHover.png">
     </section>
 
-    <!-- The Modal -->
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -43,6 +47,7 @@
             </div>
         </div>
     </div>
+
     <script>
         var modal = document.getElementById("infoModal");
         var btn = document.getElementById("modalBtn");
@@ -58,5 +63,6 @@
                 modal.style.display = "none";
             }
         }
+
     </script>
 </body></html>

@@ -11,49 +11,26 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: -200px;
+    transform: scale(50%)
 }
 
 .button {
-    background-color: white;
-    border: none;
-    width: 100px;
-    color: black;
-    padding: 30px 50px;
-    text-align: center;
-    display: inline-block;
-    font-size: 25px;
-    margin: -100px 150px;
+    padding: 5px 100px;
+    margin: 0px 50px;
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 
-.button:hover {
-    background-color: gray;
-    color: white;
+.imageButtonMint:hover {
+    content: url(/Images/button_mint.png);
 }
 
-.infoButton {
-    font-family: "IBM Plex Mono", sans-serif;
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    align-content: center;
-    display: inline-block;
-    font-size: 25px;
-    margin: -100px 150px;
-    cursor: pointer;
-    transition-duration: 0.5s;
+.imageButtonTwitter:hover {
+    content: url(/Images/button_tweet.png);
 }
 
-.infoButton:hover {
-    background-color: gray;
-    color: white;
+.imageButtonInfo:hover {
+    content: url(/Images/button_info.png);
 }
 
 .graphica {
@@ -104,15 +81,15 @@ body {
 }
 
 .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 50px;
-  font-weight: bold;
+    color: #aaaaaa;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
