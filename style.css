@@ -6,41 +6,55 @@ body {
     font-family: "IBM Plex Mono", sans-serif;
 }
 
+.theBoys {
+    margin-top: -10%;
+}
+
 .buttons {
+/*
     display: block;
     width: 100%;
     align-items: center;
     justify-content: center;
     margin-top: -10%;
+*/
 }
 
 .button {
+/*
     padding: 5px 300px;
     margin: 0px 50px;
+*/
     cursor: pointer;
 }
 
 .imageButtonMint {
+/*
     position: absolute;
     left: 0;
     width: 15%;
     margin-left: 20%;
     padding: 0px;
+*/
 }
 
 .imageButtonTwitter {
+/*
     position: relative;
     margin-left: 42.5%;
     width: 15%;
     padding: 0px;
+*/
 }
 
 .imageButtonInfo {
+/*
     position: absolute;
     right: 0%;
     width: 15%;
     margin-right: 20%;
     padding: 0px;
+*/
 }
 
 .imageButtonMint:hover {
@@ -89,7 +103,7 @@ body {
 }
 
 .modalImg {
-    width: 50%;
+    width: 35%;
     display: inline-block;
 }
 
@@ -97,9 +111,9 @@ body {
     font-family: "IBM Plex Mono", sans-serif;
     width: 45%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
     vertical-align: top;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .close {
@@ -114,4 +128,34 @@ body {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 15%;
+    margin-top: -10%;
+    margin-right: 10%;
+}
+
+.column {
+    flex: 33%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .column {
+        flex: 66%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
 }
