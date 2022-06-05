@@ -11,12 +11,12 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: -200px;
+    margin-top: -300px;
     transform: scale(50%)
 }
 
 .button {
-    padding: 5px 100px;
+    padding: 5px 300px;
     margin: 0px 50px;
     cursor: pointer;
 }
