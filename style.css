@@ -134,9 +134,9 @@ body {
 }
 
 .row {
-    transform: scale(0.35);
+    transform: scale(0.4);
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-top: -15%;
     /*    background: #aaa;*/
 }
@@ -144,7 +144,7 @@ body {
 .column {
     display: flex;
     justify-content: center;
-    flex: 33%;
+    flex: 25%;
     padding: 5px;
 }
 
@@ -154,12 +154,11 @@ body {
     }
 
     .row {
-        margin-top: -40%
+        margin-top: -20%
     }
 
     .footer {
         font-size: 8pt;
-        margin-top: -20%;
     }
 }
 
@@ -177,6 +176,30 @@ body {
     .footer {
         font-size: 8pt;
         margin-top: -50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-top: -70%;
+        flex-direction: column;
+        transform: scale(0.25);
+    }
+
+    .modalText {
+        font-size: 8pt;
+        margin-left: 0;
+    }
+
+    .footer {
+        font-size: 8pt;
+        margin-top: -50%;
+    }
+    .column {
+        display: flex;
+        justify-content: center;
     }
 }
 
