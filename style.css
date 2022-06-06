@@ -159,6 +159,9 @@ body {
         flex-direction: column;
         transform: scale(0.15);
     }
+    .modalText{
+        font-size: 8pt;
+    }
 }
 
 .footer {
