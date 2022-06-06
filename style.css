@@ -157,6 +157,7 @@ body {
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
+        transform: scale(0.15);
     }
 }
 
