@@ -10,51 +10,8 @@ body {
     margin-top: -10%;
 }
 
-.buttons {
-    /*
-    display: block;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    
-*/
-}
-
 .button {
-    /*
-    padding: 5px 300px;
-    margin: 0px 50px;
-*/
     cursor: pointer;
-}
-
-.imageButtonMint {
-    /*
-    position: absolute;
-    left: 0;
-    width: 15%;
-    margin-left: 20%;
-    padding: 0px;
-*/
-}
-
-.imageButtonTwitter {
-    /*
-    position: relative;
-    margin-left: 42.5%;
-    width: 15%;
-    padding: 0px;
-*/
-}
-
-.imageButtonInfo {
-    /*
-    position: absolute;
-    right: 0%;
-    width: 15%;
-    margin-right: 20%;
-    padding: 0px;
-*/
 }
 
 .imageButtonMint:hover {
@@ -67,6 +24,14 @@ body {
 
 .imageButtonInfo:hover {
     content: url(/Images/button_info.png);
+}
+
+.imageButtonMap:hover {
+    content: url(/Images/button_boys.png);
+}
+
+.imageButtonBoys:hover {
+    content: url(/Images/button_boys.png);
 }
 
 .graphica {
@@ -99,7 +64,6 @@ body {
 .modal-content {
     margin: auto;
     padding: 20px;
-
     width: 80%;
 }
 
@@ -212,6 +176,19 @@ body {
 }
 
 .modalTitle{
-    margin-top: 1&;
+    margin-top: 10%;
     align-content: center;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 10px;
+    border: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.roadMap {
+    margin-top: -5%;
+    margin-bottom: 20%;
 }
